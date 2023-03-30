@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Fira+Sans+Condensed:wght@500;600;900&family=Mulish:wght@400;700&family=Nunito:wght@300&family=Poppins:wght@400;500;700&family=Tapestry&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background: #e9054d;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: #000;
+    width: 880px;
+    height: 760px;
+    border-radius: 3px;
+}
+
+.container p.play {
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+    display: inline-block;
+    margin: 12px;
+}
+
+.container .header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.container .section {
+    background: #04205d;
+    width: 580px;
+    height: 323px;
+    border-radius: 3px;
+    margin-left: 7px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: 12px;
+}
+
+.section .list {
+    color: #b6b6b6;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.section .list span {
+    margin-right: 13px;
+}
+
+.section .songs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 110px;
+}
+
+.section .songs h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.section .songs p {
+    color: #b6b6b6;
+    margin-top: 5px;
+}
+
+.container .header .nav {
+    display: flex;
+}
+
+.container .header .img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.container .box {
+    width: 250px;
+    height: 340px;
+    background: #0d0d0d;
+    border-radius: 2px;
+    padding: 15px;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.container .box .discover {
+    margin-top: 5px;
+    color: #fff;
+}
+
+.container .box .discover p {
+    color: #b6b6b6;
+    margin-top: 6px;
+}
+
+.container .img .box {
+    width: 270px;
+    margin-right: 20px;
+} 
+
